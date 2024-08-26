@@ -22,6 +22,7 @@ $a=$v/$t;
 
 // Tampilkan hasil pembagian
 echo "<br> hasil percepatan adalah =". $a;
+echo "<br> Nama : Ahmadi Muslim";
 
 
 

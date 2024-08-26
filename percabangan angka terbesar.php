@@ -27,5 +27,6 @@ echo "<br>angka1 = " . $angka1;
 echo "<br>angka2 = " . $angka2;
 echo "<br>angka3 = " . $angka3;
 echo "<br>angka terbesar adalah = " .$terbesar;
+echo "<br><br><strong>By : Ahmadi Muslim<strong>";
 
 // Selesai
