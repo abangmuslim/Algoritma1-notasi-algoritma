@@ -1,7 +1,45 @@
 <!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>WAKTU TEMPUH</title>
+</head>
+
+<body>
+    <h4>Selamat datang <strong style="-webkit-text-fill-color: blue; text-transform:uppercase"> <?php echo $_GET['nama'] ?> </strong>di Program Project Percabangan Notasi Algoritma </h4>
+    <table>
+    <th>
+    <td>
+        <tr>Anda Login Sebagai :</tr>
+    </td>
+    </th>
+    <tbody>
+        <td>
+            <tr>
+                <?php
+
+                if ($_GET) {
+                    echo $_GET['nama'];
+                    echo '  Dengan Email: ' . $_GET['email'];
+                    $_GET['status'] = 'aktif';
+                }
+
+                ?>
+
+
+            </tr>
+        </td>
+    </tbody>
+</table>
+
+
+
+    <form action="output.php" method="post">
 <html>
 <head>
-    <title>Menentukan Bilangan Terbesar</title>
+    <title>Menentukan Bilangan Terbesar Dari 3 BIlangan</title>
 </head>
 <body>
     <h2>Masukkan Tiga Bilangan</h2>

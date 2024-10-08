@@ -29,3 +29,6 @@ echo
 <a href="http://localhost/">
       <button>Localhost</button>
 </a>
+<a href="../">
+      <button>Folder Awal</button>
+</a>

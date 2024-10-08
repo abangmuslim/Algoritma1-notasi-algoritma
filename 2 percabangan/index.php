@@ -10,15 +10,6 @@
 		<input type="submit" name="submit" value="Login">
 	</form>
 
-	<?php
-	if ($_GET) {
-		echo 'Nama: ' . $_GET['nama'];
-		echo '<br>';
-		echo 'Email: ' . $_GET['email'];
-		$_GET['status'] = 'aktif';
-	}
-
-	?>
 </body>
 
 </html>

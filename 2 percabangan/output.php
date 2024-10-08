@@ -21,7 +21,7 @@ echo
 "
 <h1>Program Hitung nilai terbesar (Max)</h1>
 <p>Dari Bilangan : $angka1, $angka2, dan $angka3</p>
-<p>Bilangan yang terbesar adalah $terbesar</p>
+<h2>Bilangan yang terbesarnya adalah $terbesar</h2>
 ";
 ?>
 
@@ -34,4 +34,7 @@ echo
 <p>atau kembali ke : </p>
 <a href="http://localhost/">
       <button>Localhost</button>
+</a>
+<a href="../">
+      <button>Folder Awal</button>
 </a>
