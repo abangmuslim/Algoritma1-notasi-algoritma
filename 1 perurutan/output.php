@@ -16,5 +16,16 @@ echo
 <h3>Waktu Tempuh : $waktu jam</h3>
 
 ";
-
 ?>
+
+
+<p>
+<a href="input.php">
+      <button>Kembali ke Input</button>
+</a>
+</p>
+
+<p>atau kembali ke : </p>
+<a href="http://localhost/">
+      <button>Localhost</button>
+</a>

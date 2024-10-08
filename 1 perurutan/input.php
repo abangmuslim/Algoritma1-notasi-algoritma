@@ -9,16 +9,17 @@
 <body>
 
     <form action="output.php" method="post">
-        <h1>Program Hitung Waktu Tempuh</h1>
+        <h4>Project Perurutan Notasi Algoritma </h4>
+        <h1>Program Hitung Waktu Tempuh</h1><br><br>
 
-        Jarak Tempuh (km) : <br>
+        Jarak Tempuh (km) : 
         <input type="text" name="jarak" required><br><br>
 
-        Kecepatan (km/jam): <br>
+        Kecepatan (km/jam): 
         <input type="text" name="cepat" required><br><br>
 
-        Proses :
-        <input type="submit" value="HITUNG">
+        
+        <input type="submit" value="Hitung Waktu Tempuhnya">
     </form>
 
 </body>
